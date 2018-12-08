@@ -1,19 +1,19 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
+title: Blog-SailHe
+description: "2020年应届; Since the choice of the distance, so only trials and hardships! "
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "http://sailhe.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
+username: SailHe
+user_title: 洒禾
+email: 396103442@qq.com
 twitter_username: loremipsum
-github_username:  loremipsum
+github_username:  SailHe
 gplus_username:  loremipsum
 linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: loremipsum
-profile_picture: https://avatars0.githubusercontent.com/u/30830174?s=400&u=92554f287bf41a86ab4661734e7d85e1fdf080d4&v=4
+profile_picture: https://avatars2.githubusercontent.com/u/30830174?s=400&u=0803b1abc773dd15bcfcff3e4fb937726edda930&v=4
 
 # Build settings
 markdown: kramdown
@@ -51,7 +51,7 @@ links:
       new_tab: true
       key_trigger: g
     - title: twitter
-      url: www.twitter.com/
+      url: www.twitter.com/loremipsum
       key_trigger: t
     - title: search
       url: ""
