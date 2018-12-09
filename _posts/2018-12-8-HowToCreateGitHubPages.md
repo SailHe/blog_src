@@ -13,18 +13,27 @@ categories:
 <p class="music-read">
 	<a href="spotify:track:0npodwOWWkfh83yfGK5ZOW">Lost in paradise</a>
 </p>
-<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/raw.gif">
 
-## 瞎扯
-这是模板页面啦
-<br>
 
 ## 章鱼猫
+这是模板页面啦
+<br>
 <figure class="foto-legenda">
 	<img width='30%' height='50%' src="https://octodex.github.com/images/codercat.jpg" alt="">
 	<figcaption> <p>章鱼喵啊</p>
 	</figcaption>
 </figure>
+
+<figure class="foto-legenda">
+	<figcaption>
+	<p>万恶之源</p>
+	</figcaption>
+	<img src="{{ "/assets/img/sharding/err/Docker_err_1_begin.PNG"}}" width='50%' height='100%' alt="万恶之源">
+</figure>
+
+## Keywords
+Bundler::HTTPError Could not fetch specs from https://gems.ruby-china.org/
+替换 Docker Ruby 源
 
 ### 链接列表
 
@@ -34,14 +43,10 @@ categories:
 2. <a href="https://github/sailhe" target="_blank">HomePage</a>
 3. <a href="https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/" target="_blank">在Jekyll主题中自定义CSS和HTML</a>
 
-## 代码块
+## Build an image from a Dockerfile
 
 {% highlight javascript %}
 
-db.updateUser("username",
-{
-	pwd: "123456",
-	roles: [{role: "read", db: "assets"}]
-})
+docker build -t jekyll-local .
 
 {% endhighlight %}
