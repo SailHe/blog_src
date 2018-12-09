@@ -1,0 +1,5 @@
+source 'https://gems.ruby-china.com'
+gem 'github-pages'
+gem 'jekyll-feed'
+gem 'jekyll-paginate'
+gem 'jemoji'
