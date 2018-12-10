@@ -49,10 +49,8 @@ Bundler::HTTPError Could not fetch specs from https://gems.ruby-china.org/
 
 ### 引用链接列表
 
-` Lorem ipsum` 链接啦!:
-
 1. <a href="https://gist.github.com/SailHe/498aa5fbccb261a3e074a76296fb41d8" target="_blank">Gist</a>
-2. <a href="https://github/sailhe" target="_blank">HomePage</a>
+2. <a href="https://github.com/sailhe" target="_blank">HomePage</a>
 3. <a href="https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/" target="_blank">在Jekyll主题中自定义CSS和HTML</a>
 
 ## Build an image from a Dockerfile
