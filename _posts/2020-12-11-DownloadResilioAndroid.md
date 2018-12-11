@@ -17,7 +17,11 @@ categories:
 ## Google Keywords
 
 resilio Android Download
-(使用中文搜索无果)
+
+* 无期望结果关键字
+1. 中文搜索无果
+2. resilio 安卓
+3. resilio Android
 
 ### ResilioAndroid(BitTorrent Sync) 下载链接
 
