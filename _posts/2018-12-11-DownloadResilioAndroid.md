@@ -2,7 +2,7 @@
 layout: post
 title:  "Resilio Android"
 image: ''
-date:   2018-12-9 17:22:31
+date:   2018-12-11 18:50:36
 tags:
 - resilio Android Download 安卓 下载 资源 同步
 description: 'template for blog'
@@ -27,6 +27,7 @@ resilio Android Download
 
 1. <a href="https://www.apkmonk.com/app/com.resilio.sync/" target="_blank">未报毒</a>
 2. <a href="https://bittorrent-sync.cn.uptodown.com/android/download" target="_blank">小红伞,CRDF报毒</a>
+3. <a href="https://help.resilio.com/hc/en-us/articles/206179284-Asus" target="_blank">未报毒 貌似是官方的</a>
 
 PS: uptodown.com  软件搜索的时候不要直接回车, 是搜索建议形式
 
