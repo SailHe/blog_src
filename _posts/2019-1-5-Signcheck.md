@@ -27,9 +27,10 @@ sigcheck.exe -v -s -u   表示使用vt对当前目录进行子目录递归检测
 Unknown可能指没有上传过(自己上传一遍即可); ????可能指鉴定失败(重来一次即可)
 事实证明一些软件被报告为恶意 只能说是存在漏洞 并不一定作者就是恶意的(比如说自己写的软件...)
 
-数字签名
+###数字签名
 https://baike.baidu.com/item/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D
 
-
+###杀软排名
+https://www.av-test.org/en/antivirus/home-windows/windows-10/october-2016/
 
 最后一次编辑时间: 2019-1-8 20:59
