@@ -33,4 +33,11 @@ https://baike.baidu.com/item/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D
 ###杀软排名
 https://www.av-test.org/en/antivirus/home-windows/windows-10/october-2016/
 
-最后一次编辑时间: 2019-1-8 20:59
+2019-1-8 20:59
+
+---
+
+
+可以使用[pyWinContext](https://github.com/VodBox/pyWinContext)进行快捷的验证, 之前也用过FileMenuTools,功能更齐全一些, 不过其实没啥必要, 仅仅是添加上下文的话用这款自由软件很方便
+
+最后一次编辑时间: 2019-3-17
