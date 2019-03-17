@@ -6,13 +6,13 @@ url: "http://sailhe.github.io/" # for test: remove string 'http://victorvoid.git
 
 # User settings
 username: SailHe
-user_title: 洒禾
-email: 396103442@qq.com
-twitter_username: loremipsum
+user_title: 砂生砂生
+email: shell.sailhe@gmail.com
+#twitter_username: loremipsum
 github_username:  SailHe
-gplus_username:  loremipsum
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
+#gplus_username:  loremipsum
+#linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+#disqus_username: loremipsum
 profile_picture: ./assets/img/SailHe-Header.png
 
 # Build settings
