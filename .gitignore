@@ -1,6 +1,7 @@
-_site
-.sass-cache
-node_modules
-_drafts
-.vs
-.idea
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
