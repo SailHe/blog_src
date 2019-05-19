@@ -4,14 +4,14 @@ title:  "Resilio Android"
 image: ''
 date:   2018-12-11 18:50:36
 tags:
-- Resilio
-- Android
-- Download
-- Data
-- Sync
+    - 软件
+    - Android
+    - Download
+    - Sync
 description: '安卓版Resilio'
 categories:
-- Learning
+    - 对比&推荐
+    - 不务正业
 ---
 
 ---

@@ -4,6 +4,8 @@ date: 2019-05-18 14:18:46
 description: 将模板引擎从 Jekyll换为Hexo
 tags:
     - 教程
+categories:
+    - 不务正业
 ---
 
 ---
@@ -186,6 +188,15 @@ INFO  Deploy done: git
     - 修改原本地仓库的/.git/config文件中的url选项为新的仓库url
     - 重新push即可恢复之前所有的提交记录(相当于把原仓库换了个名字)
     - 将刚刚仓库的内容全部删除(保留.git哟), 复制hexo的源码, 接下来再次push就可以啦, 所有记录都在哈哈
+    ```bash
+    $ git add -A # 增删文件可别忘了这个
+    $ git commit -m "hexo init"
+    $ git push # 查看一下Github此次提交感人的详情(平时还是要保证原子提交的说): Showing 581 changed files with 33,267 additions and 12,820 deletions.
+    ```
+8. 这一趟下来又是100来行的命令行... 接下来该整理下目录了, 顺带整理下Github的仓库, 差不多能正式开始写blog了
+9. 删除了几个fork, 但没有commit的仓库, 比如Windows-classic-samples, 当时想干啥忘了, star一下, 删掉算了bootstrap-suggest-plugin
+10. 话说原来Github的profile页面是可以自定义的...一直觉着是自动的, 今天整理仓库才发现不对劲
+![自定义](assets/20190519194458598_11981.png)
 
 
 ---

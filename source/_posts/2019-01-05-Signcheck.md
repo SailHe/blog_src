@@ -4,14 +4,14 @@ title:  "sigcheck"
 image: ''
 date:   2019-01-08 20:59:25
 tags:
-- sigcheck
-- 计算机安全
-- SHA
-- 哈希验证
+    - 程序
+    - 计算机安全
+    - SHA
+    - 哈希验证
 description: 'Win 使用 sigcheck'
 categories:
-- 程序
-- 推荐
+    - 对比&推荐
+    - 不务正业
 ---
 
 ---

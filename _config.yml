@@ -37,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false # 为true时会在新建*.md的同时在同级目录下新建一个文件夹用于存放资源
 relative_link: false
 future: true
 highlight:
