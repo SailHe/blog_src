@@ -1,8 +1,4 @@
-# SailHe
+Now you are Writing Repository
 
-Blog: https://sailhe.github.io
-Repository: https://github.com/SailHe/sailhe.github.io
-
-* theme origin: [origin](./REAMME.MD)
-
-* comments @see https://loremipsum.disqus.comembed.js
+[Blog](https://sailhe.github.io)
+[Deploy Repository](https://github.com/SailHe/sailhe.github.io)

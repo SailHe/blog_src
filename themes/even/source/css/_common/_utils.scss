@@ -21,3 +21,27 @@
      @content;
    }
 }
+
+// only work with wide screen 用于图片的过渡效果 @see monochrome in git@github.com:denjones/hexo-theme-chan.git
+@media screen and (min-width: 769px) {
+  body .main {
+    img {
+      -webkit-filter: grayscale(90%);
+      -moz-filter: grayscale(90%);
+      -ms-filter: grayscale(90%);
+      -o-filter: grayscale(90%);
+      filter: grayscale(90%);
+      transition-duration: 0.4s;
+      transition-property: filter, -webkit-filter, -moz-filter, -ms-filter, -o-filter;
+
+      &:hover {
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+        -o-filter: grayscale(0%);
+        filter: grayscale(0%);
+      }
+    }
+  }
+}
+

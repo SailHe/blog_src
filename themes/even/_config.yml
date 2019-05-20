@@ -13,6 +13,8 @@ favicon: /favicon.ico
 # default: use `atom.xml`, generator for `hexo-generator-feed`
 rss: default
 
+# style setting monochrome: true 没用到
+
 # ===========================================
 # Menu Settings
 # ===========================================
