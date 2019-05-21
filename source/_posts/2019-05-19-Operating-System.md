@@ -53,8 +53,6 @@ tags:
 
 ---
 
-**以下内容来源于本人Github Gist 创建于2018年12月左右 具体创建时间没注意**
-
 # shell 和 bash 的区别
 [简书参考](https://www.jianshu.com/p/a702a01db5c7)
 shell用于将命令翻译成计算机语言，也就是1和0,可以简单的将shell理解为命令行，与之相关的还有shell脚本，就是shell能识别的一连串命令行
@@ -69,18 +67,20 @@ bash是shell的一种.
 zsh: 史称『终极 Shell』, 但配置复杂
 --安装zsh 并更改默认shell
 [简书参考](https://www.jianshu.com/p/fe244b1c7737)
+```bash
 sudo apt-get install zsh -y
 chsh -s $(which zsh)
+```
 重启
 
 --oh-my-zsh: zsh的配置项目
 [Github参考](https://github.com/robbyrussell/oh-my-zsh)
+```bash
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-//若存在.zshrc则备份
-cp ~/.zshrc ~/.zshrc.orig
-//创建模板.zshrc
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+cp ~/.zshrc ~/.zshrc.orig # 若存在.zshrc则备份
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc # 创建模板.zshrc
 chsh -s /bin/zsh
+```
 
 
 # Ubuntu cmd
@@ -146,3 +146,5 @@ Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting f
 1. dockerfile: 构建镜像；服务除了可以基于指定的镜像，还可以基于一份 Dockerfile
 2. docker run: 启动容器；
 3. docker-compose: [启动服务](https://www.jianshu.com/p/2217cfed29d7)；
+
+- Github Gist 2018年12月左右

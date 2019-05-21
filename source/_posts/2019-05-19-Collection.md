@@ -6,7 +6,6 @@ tags:
     - 长期更新
 ---
 
-**来源于Github Gist 创建于2018年12月左右 具体创建时间没注意**
 
 话说, 这些在线图书可都自带搜索功能, 当文档查查也很方便的嘛
 
@@ -79,3 +78,5 @@ tags:
 4. [Python 进阶](https://eastlakeside.gitbooks.io/interpy-zh/content/)
 5. `书籍`[Python tutorial](https://www.pythondoc.com/pythontutorial3/appetite.html)
 6. `书籍`[Python3 Cookbook](https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
+
+- Github Gist 2018年12月左右
