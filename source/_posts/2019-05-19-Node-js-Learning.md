@@ -7,25 +7,19 @@ tags:
     - 未整理
 ---
 
-**来源于Github Gist 实际创建于2018-11-07左右**
 
-# Weex
-https://github.com/weexteam/weex-toolkit
-安装
-$ npm install -g weex-toolkit@latest
-创建项目
-$ weex create your_project_name
-1.进入目录，运行
-$ npm start
-
+# [Weex](https://github.com/weexteam/weex-toolkit)
+```bash
+$ npm install -g weex-toolkit@latest # 安装
+$ weex create your_project_name # 创建项目
+$ cd path # 进入工程目录
+$ cnpm install # 安装第三方依赖
+$ cnpm run dev # 开启调试
+$ npm start # 运行
+```
 如果在创建时选择了非自动安装的选项，在运行npm start 前需先运行 npm install
 
 [Weex环境搭建(weexpack篇)](https://www.jianshu.com/p/a5efbbf080d7)
-2.
-进入工程目录下载第三方依赖
-cnpm install
-开启调试
-cnpm run dev
 
 [一些常见错误](https://segmentfault.com/q/1010000009259256)
 
@@ -34,9 +28,9 @@ cnpm run dev
 
 npm是一个node包管理和分发工具，已经成为了非官方的发布node模块（包）的标准。
 有了npm，可以很快的找到特定服务要使用的包，进行下载、安装以及管理已经安装的包。
-
+```shell
 npm install moduleNames：安装Node模块
-安装完毕后会产生一个node_modules目录，其目录下就是安装的各个node模块。
+# 安装完毕后会产生一个node_modules目录，其目录下就是安装的各个node模块。
 node的安装分为全局模式和本地模式。
 一般情况下会以本地模式运行，包会被安装到和你的应用程序代码的本地node_modules目录下。
 在全局模式下，Node包会被安装到Node的安装目录下的node_modules下。
@@ -50,15 +44,12 @@ node的安装分为全局模式和本地模式。
 •	npm install --save
 安装的同时，将信息写入package.json中项目路径中如果有package.json文件时，直接使用npm install方法就可以根据dependencies配置安装所有的依赖包，这样代码提交到github时，就不用提交node_modules这个文件夹了。
 npm view moduleNames：查看node模块的package.json文件夹
-注意事项：如果想要查看package.json文件夹下某个标签的内容，可以使用$npm view moduleName labelName
-npm list：查看当前目录下已安装的node包
+# 注意事项：如果想要查看package.json文件夹下某个标签的内容，可以使用$npm view moduleName labelName
+npm list # 查看当前目录下已安装的node包
 注意事项：Node模块搜索是从代码执行的当前目录开始的，搜索结果取决于当前使用的目录中的node_modules下的内容。$ npm list parseable=true可以目录的形式来展现当前安装的所有node包
-npm help
-查看帮助命令
-npm view moudleName dependencies
-查看包的依赖关系
-npm view moduleName repository.url
-查看包的源文件地址
+npm help # 查看帮助命令
+npm view moudleName dependencies # 查看包的依赖关系
+npm view moduleName repository.url # 查看包的源文件地址
 npm view moduleName engines
 查看包所依赖的Node的版本
 npm help folders
@@ -80,6 +71,11 @@ npm init：会引导你创建一个package.json文件，包括名称、版本、
 npm root：查看当前包的安装路径
 npm root -g：查看全局的包的安装路径
 npm -v：查看npm安装的版本
-更多命令请参看npm官方文档：https://www.npmjs.org/doc/
+```
+
+更多命令参见[npm官方文档](https://www.npmjs.org/doc/)
 
 * [React](https://react.docschina.org/docs/hello-world.html)
+
+**来源于本人Github Gist 实际创建于2018-11-07左右**
+**仍待整理**
