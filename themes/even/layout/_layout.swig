@@ -30,6 +30,8 @@
       </div>
     </div>
 
+    {%- include 'custom/firefly.swig' -%}
+
     {%- include '_script/comments.swig' -%}
 
     {%- include '_script/libs.swig' -%}
