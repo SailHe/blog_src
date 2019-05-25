@@ -7,7 +7,7 @@
 
   <body>
     {%- include '_partial/slideout.swig' -%}
-    <div class="container" id="mobile-panel">
+    <div class="container background-transparent" id="mobile-panel">
       <header id="header" class="header">
         {%- include '_partial/header.swig' -%}
       </header>

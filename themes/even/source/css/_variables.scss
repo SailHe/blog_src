@@ -40,9 +40,19 @@ $gray-purple: #251f31 !default;
 $gray-dark: #2f2f33 !default;
 $blue-green: #00B090 !default;
 $white-purple: #bebbc2 !default;
+$beige: #f5f5dc !default;
+$deep-red: #130808 !default;
+$pink-blue: #abe7db !default;
+$deep-blue: #0e0720 !default;
 
-$global-background-color: $white !default;
-$slideout-color: $white !default;
+$global-background-color: $pink-blue !default;
+// 透明的滑出导航层(此导航面向移动端 但Web端也能看见效果)
+$slideout-color: transparent !default;
+$post-and-code: rgba(245, 245, 220, 0.8);
+// 代码块背景以及文章目录 $code-background 这个颜色在custom修改没有效果(无法覆盖)
+$deputy-color: rgba($post-and-code, 0.6);
+// 主题色 vscode 按住ctlr可以选择颜色 这个颜色倒是可以在custom处修改
+$theme-color: #02e9af;
 
 
 // ========== Global ========== //
@@ -121,7 +131,7 @@ $mobile-navbar-height: 50px !default;
 $post-list-margin-bottom: 20px !default;
 
 // Padding of the post.
-$post-padding: 1.5em 0 !default;
+$post-padding: 1.5em 1.5em !default;
 
 // Border top of the post + post.
 $post-border: 1px solid $light-gray !default;
@@ -193,8 +203,8 @@ $content-blockquote-border-left: 3px solid rgba($theme-color, 0.3) !default;
 $content-table-border-color: darken($deputy-color, 3%) !default;
 
 // ========== Code ========== //
-// Color of the code.
-$code-color: #c7254e !default;
+// Color of the code. 
+$code-color: #30161b !default;
 
 // Font size of code.
 $code-font-size: 13px !default;

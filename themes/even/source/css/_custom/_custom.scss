@@ -2,5 +2,47 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
-$theme-color: $blue-green
 
+
+// 背景透明效果 (单行注释不会被显示出来 但多行可以)
+.background-transparent {
+    // opacity: 0.3; // 使用不透明度调节, 背景和前景(文字)都会透明
+    // background-color:rgba(116, 195, 173, 0.7); // 使用 rgba的a调节, 需要已知颜色
+    background-color: transparent; // 背景透明
+}
+
+/*
+把圆角半径10像素（px），反时针旋转15度，加上2像素（px）的文字阴影，并加上10像素（px）的灰色阴影。
+*/
+.transform-shadow {
+    border-radius: 10px;
+    // text-shadow: 0px 2px 2px #AAA;
+    box-shadow: 0px 3px 10px #AAA;
+    //  旋转
+    // transform: rotate(-15deg);
+}
+
+.post .post-content h2, code{
+    text-shadow: 0px 2px 2px #AAA;
+}
+
+.code{
+    text-shadow: 0px 2px 2px #AAA;
+}
+
+.right-bottom {
+    position: fixed;
+    // top: 55vh;
+    // left: 76vw; // 1460px
+    right: 50px;
+    bottom: -40px;
+}
+
+// 位于父元素的中间 (实际效果未知)
+.center-parent{
+    background-color: #abe7db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}

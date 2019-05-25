@@ -8,6 +8,7 @@
 
 .post {
   padding: $post-padding;
+  background-color: $post-and-code; // 单个post的背景色 若不设置则与父元素背景色一致
 
   & + .post {
     border-top: $post-border;
