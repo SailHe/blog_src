@@ -46,7 +46,8 @@ $pink-blue: #abe7db !default;
 $deep-blue: #0e0720 !default;
 $diamond: #02e9af !default;
 
-$global-background-color: $pink-blue !default;
+$global-background-color: $white !default;
+// $global-background-color: $pink-blue !default;
 // 透明的滑出导航层(此导航面向移动端 但Web端也能看见效果)
 $slideout-color: transparent !default;
 $post-and-code: rgba(245, 245, 220, 0.1);

@@ -13,7 +13,7 @@
       </header>
 
       <main id="main" class="main">
-        <div class="content-wrapper">
+        <div class="content-wrapper transform-shadow">
           <div id="content" class="content">
             {%- block content -%}{%- endblock -%}
           </div>
@@ -30,8 +30,11 @@
       </div>
     </div>
 
+    <!-- >
+    {%- include 'custom/adventure_island.swig' -%}
+    {%- include 'custom/cat.swig' -%}
     {%- include 'custom/firefly.swig' -%}
-
+    </ -->
     {%- include '_script/comments.swig' -%}
 
     {%- include '_script/libs.swig' -%}

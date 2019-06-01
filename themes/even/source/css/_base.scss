@@ -15,6 +15,17 @@ body {
   line-height: $global-lineheight;
   color: $global-font-color;
   background: $global-background;
+  // background:-moz-radial-gradient(51% 12% 50deg, #5096B0, #17151C 52%); // 渐变
+
+  // background-image: url(/amCharts.pixelMap.svg);
+  // background-image: url(/forest-931706.jpg);
+  // background-image: url(/fullmetal-alchemist-brotherhood.jpg);
+
+  background-size: 100%; // 始终保持原图大小(默认自适应)
+  background-attachment: fixed; // 不随窗口滚动
+  background-repeat: no-repeat; // 不重复(默认双向重复)
+  background-position: center; // 背景位置
+
   scroll-behavior: smooth;
   border-top: 3px solid $theme-color;
 

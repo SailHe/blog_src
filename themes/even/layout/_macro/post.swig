@@ -1,5 +1,5 @@
 {%- macro render(post) -%}
-  <article class="post transform-shadow">
+  <article class="post">
     <header class="post-header">
       <h1 class="post-title">
         {%- if is_home() -%}
