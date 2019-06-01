@@ -210,6 +210,7 @@ INFO  Deploy done: git
 5. [赞赏参考](https://www.haomwei.com/about/)
 6. [分类参考1](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak)
 7. [分类参考2](https://gaohaoyang.github.io/category/)
+8. [修改Hexo模板](https://www.mashangxue123.com/Hexo/353523292.html)
 
 ## Else
 1. [VNote官网](https://tamlok.github.io/vnote/zh_cn/)
