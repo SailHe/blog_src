@@ -44,15 +44,18 @@ $beige: #f5f5dc !default;
 $deep-red: #130808 !default;
 $pink-blue: #abe7db !default;
 $deep-blue: #0e0720 !default;
+$diamond: #02e9af !default;
 
 $global-background-color: $pink-blue !default;
 // 透明的滑出导航层(此导航面向移动端 但Web端也能看见效果)
 $slideout-color: transparent !default;
-$post-and-code: rgba(245, 245, 220, 0.8);
+$post-and-code: rgba(245, 245, 220, 0.1);
 // 代码块背景以及文章目录 $code-background 这个颜色在custom修改没有效果(无法覆盖)
 $deputy-color: rgba($post-and-code, 0.6);
-// 主题色 vscode 按住ctlr可以选择颜色 这个颜色倒是可以在custom处修改
-$theme-color: #02e9af;
+// 主题色 这个颜色倒是可以在custom处修改
+$theme-color: $diamond;
+// 锚点链接的颜色
+$link-color: #3166d6;
 
 
 // ========== Global ========== //
@@ -196,7 +199,7 @@ $content-link-border: 1px solid $theme-color !default;
 // Background color of the blockquote.
 $content-blockquote-backgroud: rgba($theme-color, 0.05) !default;
 
-// Border left of the blockquote.
+// Border left of the blockquote. 引用区域颜色
 $content-blockquote-border-left: 3px solid rgba($theme-color, 0.3) !default;
 
 // Border color of the table.
