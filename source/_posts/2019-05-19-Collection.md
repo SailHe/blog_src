@@ -3,7 +3,9 @@ title: Collection
 date: 2019-05-19 21:06:31
 description: 采集的各种编程链接
 tags:
-    - 长期更新
+    - ESR
+categories:
+    - Induction
 ---
 
 

@@ -3,7 +3,9 @@ title: Node.js-Learning
 description: Node.js 相关的技能学习笔记
 date: 2019-05-19 22:39:50
 tags:
-    - 笔记
+    - Node.js
+categories:
+    - Induction
 ---
 
 # npm

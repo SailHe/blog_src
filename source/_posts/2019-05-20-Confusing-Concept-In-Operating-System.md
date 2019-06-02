@@ -4,14 +4,16 @@ title:  "Confusing-Concept-In-Operating-System"
 image: ''
 date:   2019-05-20 21:11:31
 tags:
-    - Docs
+    - Operating-System
+    - ESR
 description: '操作系统中的一些易混淆概念'
 categories:
-    - Operating-System
+    - Docs
 ---
 
 
 # 基本概念简介:
+## [前导知识](https://sailhe.github.io/2019/05/19/Operating-System/)
 ## 控制台: 
 >即[命令行界面] (英语：command-line interface，缩写：CLI)
  也有人称之为[字符用户界面] (character user interface, CUI)

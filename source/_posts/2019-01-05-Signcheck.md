@@ -10,8 +10,7 @@ tags:
     - 哈希验证
 description: 'Win 使用 sigcheck'
 categories:
-    - 对比&推荐
-    - 不务正业
+    - Evaluation
 ---
 
 ---

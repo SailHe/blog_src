@@ -2,8 +2,9 @@
 title: Markdown-Editor
 date: 2019-05-31 16:24:24
 tags:
-    - Markdown
+    - 软件
     - Editor
+    - Markdown
 description: '对比常见Markdown编辑器'
 categories:
     - Evaluation

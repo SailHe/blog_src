@@ -3,7 +3,9 @@ title: Trim-Repository
 description: 整理Github
 date: 2019-05-19 19:59:29
 tags:
-    - 不务正业
+    - Trim
+categories:
+    - Experience
 ---
 
 - 接下来该整理下目录了, 顺带整理下Github的仓库, 差不多能正式开始写blog了

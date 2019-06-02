@@ -10,8 +10,7 @@ tags:
     - Sync
 description: '安卓版Resilio'
 categories:
-    - 对比&推荐
-    - 不务正业
+    - Evaluation
 ---
 
 ---

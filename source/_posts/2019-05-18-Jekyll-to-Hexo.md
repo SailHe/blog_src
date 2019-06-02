@@ -1,11 +1,12 @@
 ---
-title: jekyll-to-Hexo
+title: Jekyll-To-Hexo
 date: 2019-05-18 14:18:46
-description: 将模板引擎从 Jekyll换为Hexo
+description: 将模板引擎从 Jekyll 换为 Hexo
 tags:
-    - 教程
+    - Jekyll
+    - Hexo
 categories:
-    - 不务正业
+    - Experience
 ---
 
 ---
@@ -194,6 +195,7 @@ INFO  Deploy done: git
     $ git push # 查看一下Github此次提交感人的详情(平时还是要保证原子提交的说): Showing 581 changed files with 33,267 additions and 12,820 deletions.
     ```
 8. 这一趟下来又是100来行的命令行
+9. 其它: blog的分类只能有一个, 标签可以贴多个...
 
 ---
 # Reference

@@ -1,11 +1,11 @@
 ---
 title: Way-For-Startup-Program
+date: 2019-06-01 15:37:42
 tags:
-  - Docs
+  - Operating-System
 description: 启动程序的几种方式
 categories:
-  - Operating-System
-date: 2019-06-01 15:37:42
+  - Docs
 ---
 
 **基于实践+总结性质+这些概念一定存在错误**

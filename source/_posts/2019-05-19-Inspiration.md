@@ -3,8 +3,9 @@ title: Inspiration
 description: 与编程有关的思考与灵感
 date: 2019-05-19 22:46:21
 tags:
-    - 长期更新
-    - 待整理的
+    - Thinking
+categories:
+    - Induction
 ---
 
 # 使用状态码的优势
@@ -31,19 +32,19 @@ tags:
 ``` js
 var size = 100, count = 0;
 for (let i1 = 0; i1 < size; ++i1) {
-		for (let i2 = i1+1; i2 < size; ++i2) {
-			for (let i3 = i2+1; i3 < size; ++i3) {
-				for (let i4 = i3+1; i4 < size; ++i4) {
-					for (let i5 = i4+1; i5 < size; ++i5) {
-						++count;
-						//console.log(i1 + ' ' + i2  + ' ' + i3 + ' ' + i4 + ' ' + i5 )
-          }
+    for (let i2 = i1+1; i2 < size; ++i2) {
+        for (let i3 = i2+1; i3 < size; ++i3) {
+            for (let i4 = i3+1; i4 < size; ++i4) {
+                for (let i5 = i4+1; i5 < size; ++i5) {
+                    ++count;
+                    //console.log(i1 + ' ' + i2  + ' ' + i3 + ' ' + i4 + ' ' + i5 )
+                }
+            }
         }
-      }
     }
 }
 console.log(count);
-## 结果
+// 结果
 C(100, 5) -> 75287520       VM241:10
 A(100, 5) -> 9034502400.0
 ```

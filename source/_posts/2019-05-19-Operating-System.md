@@ -3,7 +3,10 @@ title: Operating-System
 description: 归纳整理操作系统相关的知识与文档
 date: 2019-05-19 22:06:09
 tags:
-    - 长期更新
+    - Operating-System
+    - ESR
+categories:
+    - Induction
 ---
 
 >[进程](https://zh.wikipedia.org/wiki/行程)（英语：process），是指计算机中已运行的程序。
