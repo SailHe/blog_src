@@ -31,9 +31,9 @@ categories:
 
 - 程序: 指令、数据及其组织形式的描述。
 - 进程: 是程序的运行实例。
-![Hexo blog 服务启动后创建的进程](/assets/opsystme/blog本地运行时的进程.png)
+![Hexo blog 服务启动后创建的进程](/assets/opsystem/blog本地运行时的进程.png)
 - 线程: 是进程中的实际运作单位。
-![正在运行的某程序的线程](/assets/opsystme/程序运行时的线程.png)
+![正在运行的某程序的线程](/assets/opsystem/程序运行时的线程.png)
 - **并发**: 同一个**时间段**存在多个正在运行的线程，且都在同一个处理机上运行，但任一个时刻点上只有一个线程在处理机上运行。
 - **并行**: 同一个**时刻**存在多个正在运行的进程。
 
@@ -47,11 +47,11 @@ categories:
 >倘若在计算机系统中有多个处理机，则这些可以并发执行的程序便可被分配到多个处理机上，实现并行执行，即利用每个处理机来处理一个可并发执行的程序，这样，多个程序便可以同时执行。
 >[参考](http://term.ccf.org.cn/index.php/并发)
 
-![操作系统基本概念-概览](/assets/opsystme/操作系统基本概念-概览.png)
+![操作系统基本概念-概览](/assets/opsystem/操作系统基本概念-概览.png)
 
-![进程](/assets/opsystme/进程.png)
+![进程](/assets/opsystem/进程.png)
 
-![CPU](/assets/opsystme/CPU.png)
+![CPU](/assets/opsystem/CPU.png)
 
 
 ---
@@ -149,5 +149,8 @@ Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting f
 1. dockerfile: 构建镜像；服务除了可以基于指定的镜像，还可以基于一份 Dockerfile
 2. docker run: 启动容器；
 3. docker-compose: [启动服务](https://www.jianshu.com/p/2217cfed29d7)；
+
+* PS
+之前把 system 拼成了 systme, Google翻译也能显示出系统的译文(但并不详细), 人工ZZ诶
 
 - Github Gist 2018年12月左右
