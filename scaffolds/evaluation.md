@@ -2,8 +2,8 @@
 title: {{ title }}
 date: {{ date }}
 tags:
-    - usage(用途)
-description: '又使用了些软件(干了啥)'
+    - 用途, usage(用法)
+description: '干了啥: 又使用了些软件(不务正业)'
 categories:
     - Evaluation
 ---
@@ -19,4 +19,4 @@ categories:
 用法
 
 ## Why-Comparison
-对比
+对比&推荐
