@@ -185,14 +185,13 @@ render(<HelloMessage name="John" />, mountNode);
 11. [Webpack](https://zh.wikipedia.org/wiki/Webpack) 是一个开源的前端打包工具。**Webpack 提供了前端开发缺乏的模块化开发方式**，将各种静态资源视为模块，并从它生成优化过的代码。
 以下引用自[原文](https://www.webpackjs.com/concepts/modules/)
 > 什么是 webpack 模块
-
  对比 Node.js 模块，webpack 模块能够以各种方式表达它们的依赖关系，几个例子如下：
-
-    ES2015 import 语句
-    CommonJS require() 语句
-    AMD define 和 require 语句
+    ES2015 `import` 语句
+    CommonJS `require()` 语句
+    AMD `define` 和 `require` 语句
     css/sass/less 文件中的 @import 语句。
-    样式(url(...))或 HTML 文件(<img src=...>)中的图片链接(image url)
+    样式(`url(...)`)或 HTML 文件(`<img src=...>`)中的图片链接(`image url`)
+
 12. 也就是说, Webpack整合了包括之前介绍过模块导入方法在内的几乎所有方法, 并且, 为前端开发提供了模块化开发方式, 也就是说Tips[6]提到的第三方插件已经没有存在的必要了
 13. 上述所有一切都是为了**解决依赖**
 14. Webpack的原理大概就是分析所有依赖语句, 然后合成到一个文件中
