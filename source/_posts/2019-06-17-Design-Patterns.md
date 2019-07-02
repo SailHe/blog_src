@@ -3,7 +3,7 @@ title: Design-Patterns
 tags:
   - DesignPatterns
   - TomCat
-description: nothing
+description: 介绍一点设计模式的知识
 categories:
   - Induction
 date: 2019-06-17 15:45:27

@@ -2,7 +2,7 @@
 title: Servlet-Learning
 tags:
   - Servlet
-description: nothing
+description: 记录学习Servlet相关的知识的情况
 categories:
   - Experience
 date: 2019-06-16 11:56:22
