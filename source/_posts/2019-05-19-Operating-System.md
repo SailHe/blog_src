@@ -154,3 +154,5 @@ Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting f
 之前把 system 拼成了 systme, Google翻译也能显示出系统的译文(但并不详细), 人工ZZ诶
 
 - Github Gist 2018年12月左右
+
+[Get Docker Engine - Community for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#uninstall-old-versions)

@@ -13,7 +13,7 @@ categories:
 
 
 # 基本概念简介:
-## [前导知识](https://sailhe.github.io/2019/05/19/Operating-System/)
+## [前导知识](/2019/05/19/Operating-System/)
 ## 控制台: 
 >即[命令行界面] (英语：command-line interface，缩写：CLI)
  也有人称之为[字符用户界面] (character user interface, CUI)
@@ -98,6 +98,8 @@ categories:
     tasklist|findstr "PID" :: 也可以在任务管理器的详情信息根据PID查询
     taskkill /f /t /im 占用进程名.exe :: 杀死服务以释放被占用的端口
 ```
+
+`超酷炫的Blog`[windows CMD命令大全及详细解释和语法](https://xstarcd.github.io/wiki/windows/windows_cmd_syntax.html)
 
 **以下源于中文网络, 或不可靠, 最好参考MS官方文档, 若没有中文版本, 实机上的帮助文档可能有中文**
 ```cmd

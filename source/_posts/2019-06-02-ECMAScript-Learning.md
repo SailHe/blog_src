@@ -272,3 +272,6 @@ Repository
 
 [webpack 解决的痛点](https://www.jianshu.com/p/132b6d171647)
 [Weex从入门到超神（一）](https://www.gaoshilei.com/2017/05/26/weex-1/)
+
+## 其他
+[用 const 还是用 let？](https://www.cnblogs.com/ziyunfei/p/6038213.html)

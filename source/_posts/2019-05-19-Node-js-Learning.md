@@ -71,4 +71,33 @@ npm start # 运行
 [一些常见错误](https://segmentfault.com/q/1010000009259256)
 
 
+# 常用库
+[lodash](https://lodash.think2011.net/)
+[lodash-repo]()一个 JavaScript 的实用工具库, 表现一致性, 模块化, 高性能, 以及 可扩展，它使用函数式编程范例为常见的编程任务提供实用程序功能。
+[faker-npm](https://www.npmjs.com/package/faker)用于在浏览器和node.js中生成大量虚假数据
+
+[代理解决mock数据。](https://www.cnblogs.com/y896926473/articles/7437343.html)
+
+[用于为数字值添加千位分隔符的包。](https://github.com/gejiawen/bullhead)
+[基于Webpack的库的生成模板（输入：ES6，输出：通用库）](https://github.com/krasimir/webpack-library-starter)
+[通用模块定义UMD-repo](https://github.com/umdjs/umd)
 - Github Gist 2018-11-07左右
+
+## Blog
+[Sample Gruntfile](https://gruntjs.com/sample-gruntfile)
+[Nodejs学习笔记（五）--- Express安装入门与模版引擎ejs](https://www.cnblogs.com/zhongweiv/p/nodejs_express.html)
+[npm安装慢，换用淘宝的镜像](http://www.cnblogs.com/xueweihan/p/5491730.html)
+[webpack-起步](https://webpack.docschina.org/guides/getting-started/#%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85)
+[JavaScript中变量提升](http://www.cnblogs.com/damonlan/archive/2012/07/01/2553425.html)
+[使用Greensock的高级Javascript动画示例和展示-greensock](https://greensock.com/examples-showcases)
+[我接触过的前端数据结构与算法](https://juejin.im/post/5958bac35188250d892f5c91)
+[使用自动生成器创建页面 -  GitHub Enterprise 2.11文档](https://help.github.com/enterprise/2.11/user/articles/creating-pages-with-the-automatic-generator/)
+[全新Chrome Devtool Performance使用指南](https://zhuanlan.zhihu.com/p/29879682)
+[页面重绘和回流以及优化 ](http://www.css88.com/archives/4996)
+[JS刷题总结](https://zhuanlan.zhihu.com/p/35444353)
+[JS中lambda表达式的优缺点和使用场景(转)](https://www.cnblogs.com/ajianbeyourself/p/8859261.html)
+[第28篇 js中let和var](http://www.cnblogs.com/OceanHeaven/p/5472181.html)
+[android JSON解析之JSONObject与GSON](https://www.cnblogs.com/gzdaijie/p/5189542.html)
+[使用控制台 - Chrome 开发工具指南 - 极客学院Wiki](http://wiki.jikexueyuan.com/project/chrome-devtools/using-the-console.html)
+[SQL Server 存储过程](https://www.cnblogs.com/hoojo/archive/2011/07/19/2110862.html)
+[DECLARE (Transact-SQL)](https://docs.microsoft.com/zh-CN/sql/t-sql/language-elements/declare-local-variable-transact-sql?view=sql-server-2017)

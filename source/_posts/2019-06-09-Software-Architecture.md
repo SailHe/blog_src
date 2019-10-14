@@ -48,3 +48,11 @@ date: 2019-06-09 19:57:00
 [软件构架、架构和框架的区别](https://my.oschina.net/duansheli/blog/292288) -> [原文](https://blog.csdn.net/nizhigang2000/article/details/58371)
 [软件体系结构](https://blog.csdn.net/louxuez/article/details/9116755)
 [几种常见的软件架构风格介绍](https://wxs.me/2069)
+
+## 架构库
+以库的源码语言为准(多个则取占比最大的)
+### Python
+
+`Repo`[Cookiecutter](https://github.com/cookiecutter/cookiecutter)
+一个基于Python的命令行工具, 可以以各种模板为原型建立python, C, Java等语言的工程
+`教程`[让你的项目模板化和专业化 - Cookiecutter ](https://betacat.online/posts/2017-08-16/cookiecutter-intro/)

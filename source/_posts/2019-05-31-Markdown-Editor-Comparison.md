@@ -30,3 +30,8 @@ categories:
 4. 后者的粘贴链接自动请求标题的功能很好用
 5. 后者更好看, PC版功能也很强, 但更像是一款笔记管理软件, 而非MarkDown编辑器
 6. Vnote的图片粘贴功能做的也还中规中矩, 但始终感觉文件夹自定义功能很鸡肋, 作为笔记管理软件, 使用绝对目录没啥问题, 但作为编辑器的体验并不好
+
+[基于 Docker 的 Markdown 文档编辑环境](http://tinylab.org/markdown-lab/)
+[轻量级bootstrap兼容的WISWYG富文本编辑器](https://github.com/mindmup/bootstrap-wysiwyg)
+
+[typora](https://zh.wikipedia.org/wiki/Typora)一个支持 Markdown 语言的文本编辑器, 适用于OS X、Windows和Linux三种操作系统，是一款免费软件。
