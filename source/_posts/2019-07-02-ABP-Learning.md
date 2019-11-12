@@ -13,7 +13,28 @@ date: 2019-07-02 20:45:29
 - 流水帐的好处在于, 仅需少量背书+符合认知规律
 
 # 数据库环境
+[Oracle数据库11gR2下载地址 - WebLogic Android 博客](https://beansoftapp.github.io/2010/11/18/oracle%E6%95%B0%E6%8D%AE%E5%BA%9311gr2%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/)
 将注册表中的服务对应的表项删除后,重启即可看到服务项被删除
+
+[Oracle 11g安装步骤详谈 - starskyhu - 博客园](https://www.cnblogs.com/hoobey/p/6010804.html)
+[Oracle 十全大补汤 | AMAN's BLOG](https://jlhxxxx.github.io/oracle-rudiment.html)
+
+执行sqlplus报错`SP2-0750: You may need to set ORACLE_HOME to your Oracle software directory`ORACLE_HOME环境变量未配置好: 需要到app...home这一级
+`ORA-12560: TNS: 协议适配器错误`未解决 重装oracle
+[Windows下把Oracle卸载干净 - 简书](https://www.jianshu.com/p/3d84efb92484)
+
+`INS-13001 环境不满足最低要求` 忽略就行 也可参考更改配置文件(但是没看明白)
+[Oracle——异常集 · IanEiU](https://ianeiu.github.io/2018/09/19/oracle%E5%BC%82%E5%B8%B8%E9%9B%86/)
+
+`OUI-10137`C:\Program Files\Oracle\Inventory没有删除(PS: 在这种情况下新生成的文件不用删除)
+`在注册表中没有找到指定的主目录名` 据说是没有更改环境变量 但是这里是更改了的 或许和之前没有删除OUI-10137错误的文件有关
+
+事后可登录 [Oracle Enterprise Manager](https://localhost:1158/em)
+仅管理员才是可以登录到 Enterprise Manager 执行管理任务 (如设置封锁, 电子邮件通知调度) 的数据库用户。
+
+![oracle安装成功结果](/assets/img/sharding/oracle/oracle安装成功结果.png)
+
+然后使用**数据库管理软件**连接:
 
 **Toad**是数据库管理及开发的极佳工具，简单的说就是oem+sqlplus+pl/sql developer
 
